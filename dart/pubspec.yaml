@@ -1,0 +1,16 @@
+name: apiverve_pdftotext
+description: "PDF to Text extracts the text layer of a PDF, uploaded or fetched from a URL, and returns it as plain text with the page, word and character counts. Paid plans add the text of each page separately and the document metadata, such as title, author and creation date."
+version: 1.2.5
+homepage: https://apiverve.com/marketplace/pdftotext?utm_source=dart&utm_medium=referral&utm_content=homepage
+repository: https://github.com/apiverve/pdftotext-api/tree/main/dart
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  http: ^1.1.0
+  http_parser: ^4.0.0
+
+dev_dependencies:
+  lints: ^3.0.0
+  test: ^1.24.0
